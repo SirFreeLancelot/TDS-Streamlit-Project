@@ -13,4 +13,4 @@ with col2:
 with col3:
     num3 = st.number_input("Enter the third number")
 
-st.write("The maximum number is", max(num1, num2, num3))
+st.write(f"The maximum number is {max(num1, num2, num3)}")
